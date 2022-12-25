@@ -1,0 +1,37 @@
+body{
+    background: url(../images/gey.jpg);
+}
+
+.NewYear h1{
+    color: red;
+    font-size: 60px;
+    animation: color-change 1.5s infinite;
+}
+.NewYear h2{
+    color: red;
+    font-size: 50px;
+    animation: blink 1.6s infinite;
+}
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+   }
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: aqua; }
+    60% { color: aquamarine; }
+    80% { color: orange; }
+    90% { color: orangered; }
+    100% { color: blueviolet;}
+  }
+.NewYear p{
+    color:brown;
+    font-size: 30px;
+}
+.NewYear{
+    text-align: center;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 100px;
+}

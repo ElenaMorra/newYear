@@ -1,0 +1,42 @@
+body{background: url(images/123.jpg);
+background-size: cover;}
+h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 30px;
+    width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blink1{
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 3s linear infinite;
+}
+@-webkit-keyframes blink1 {
+    0% { color: rgb(250, 15, 15, 1 );}
+    50% { color: rgb(250, 15, 15, 0 );}
+    100% { color: rgb(250, 15, 15, 1 );}
+}
+@keyframes blink1 {
+    0% { color: rgb(250, 15, 15, 1 );}
+    50% { color: rgb(250, 15, 15, 0 );}
+    100% { color: rgb(250, 15, 15, 1 );}
+}

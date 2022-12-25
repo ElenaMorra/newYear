@@ -1,0 +1,36 @@
+body{
+    background: url(123.jpg);
+    background-size: cover;
+}
+h1{color: rgb(116, 228, 232);
+font-size: 150px;}
+p{color: rgb(255, 255, 255);
+font-size: 30px;}
+#blink1{
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 3s linear infinite;
+}
+@-webkit-keyframes blink1{
+    0%{color: rgba(116, 228, 232);}
+    50%{color: rgba(116, 228, 0);}
+    100%{color: rgb(116, 228, 232);}
+}
+@keyframes blink1{
+    0%{color: rgba(116, 228, 232);}
+    50%{color: rgba(116, 228, 0);}
+    100%{color: rgb(116, 228, 232);}
+}
+#blink2{
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 3s linear infinite;
+}
+@-webkit-keyframes blink2{
+    0%{color: rgb(255, 255, 255);}
+    50%{color: rgb(165, 233, 241);}
+    100%{color: rgb(255, 255, 255);}
+}
+@keyframes blink2{
+    0%{color: rgb(255, 255, 255);}
+    50%{color: rgb(165, 233, 241);}
+    100%{color: rgb(255, 255, 255);}
+}
